@@ -1,0 +1,12 @@
+{
+  "name": "@ucsantacruz/ucsc-badge",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve MPEHLH9WfuevQsmCGoRa --open"
+  },
+  "dependencies": {}
+}
