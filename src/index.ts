@@ -9,8 +9,8 @@ export class UcscBadge extends LitElement {
     
     .container {
       font-family: Roboto,sans-serif;;
-      width: 100%;
-      font-size:clamp(14px, 3vw, 36px); 
+      max-width: 100%;
+      font-size:clamp(14px, 3vw, 26px); 
       max-width:100%;
       display: flex;
       flex-direction: row;
@@ -21,6 +21,7 @@ export class UcscBadge extends LitElement {
       text-decoration: none;
       color: #333;
       width: max(50%, 1080px);
+      box-sizing: border-box;
     }
 
     .container:focus,
