@@ -53,7 +53,7 @@ UcscBadge.styles = css `
 
     .media {
       flex: 0 1 30%;
-      display: grid;
+      display: flex;
       place-content: center;
     }
 
