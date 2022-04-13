@@ -33,7 +33,7 @@ export class UcscBadge extends LitElement {
 
     .media {
       flex: 0 1 30%;
-      display: grid;
+      display: flex;
       place-content: center;
     }
 
